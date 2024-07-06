@@ -1,35 +1,21 @@
-# LeviLamina Plugin Template
+# SuperFlatDimension
 
-A LeviLamina plugin template
+为你的服务器地图创建一个超平坦维度
 
-This plugin is a template for developing LeviLamina plugins.
+> Create a super flat dimension for your server map
 
-## Install
+## Install / 安装
 
-Generate a new repository from this template.
+```bash
+lip install github.com/engsr6982/SuperFlatDimension
+```
 
-## Usage
+## Usage / 使用
 
-Before using this plugin template, make sure that you have installed XMake and a Minecraft Bedrock Server with LeviLamina.
+使用以下命令前往超平坦维度
 
-1. Clone the new repository into a local folder.
+> Use the following command to go to the hyperflat dimension
 
-1. Change the plugin name and the expected LeviLamina version in `xmake.lua`.
-
-1. Add your code.
-
-1. Run `xmake repo -u` in the root of the repository.
-
-1. Run `xmake` to build the plugin.
-
-Now the build is complete at `bin/`.
-
-## Contributing
-
-Ask questions by creating an issue.
-
-PRs accepted.
-
-## License
-
-CC0-1.0 © LiteLDev
+```
+tp ~~~ superflat
+```

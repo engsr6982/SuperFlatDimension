@@ -5,6 +5,11 @@
 #include "ll/api/plugin/NativePlugin.h"
 #include "ll/api/plugin/RegisterHelper.h"
 
+#include "ll/api/event/server/ServerStartedEvent.h"
+#include "mc/world/level/levelgen/GeneratorType.h"
+#include "more_dimensions/api/dimension/CustomDimensionManager.h"
+#include "more_dimensions/api/dimension/SimpleCustomDimension.h"
+
 namespace my_plugin {
 
 static std::unique_ptr<MyPlugin> instance;
@@ -20,6 +25,10 @@ bool MyPlugin::load() {
 bool MyPlugin::enable() {
     getSelf().getLogger().info("Enabling...");
     // Code for enabling the plugin goes here.
+
+    more_dimensions::CustomDimensionManager::getInstance()
+        .addDimension<more_dimensions::SimpleCustomDimension>("superflat", 345, GeneratorType::Flat);
+
     return true;
 }
 
