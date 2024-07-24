@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "tooth": "github.com/engsr6982/SuperFlatDimension",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "info": {
         "name": "SuperFlatDimension",
         "description": "creates a super flat dimension",
@@ -12,10 +12,10 @@
             "dimension"
         ]
     },
-    "asset_url": "https://github.com/engsr6982/PlotCraft/releases/download/v0.1.0/PlotCraft-windows-x64.zip",
+    "asset_url": "https://github.com/engsr6982/PlotCraft/releases/download/v0.2.0/PlotCraft-windows-x64.zip",
     "prerequisites": {
-        "github.com/LiteLDev/LeviLamina": "0.13.x",
-        "github.com/LiteLDev/MoreDimensions": "0.4.x"
+        "github.com/LiteLDev/LeviLamina": "0.13.4",
+        "github.com/LiteLDev/MoreDimensions": "0.4.1"
     },
     "files": {
         "place": [
