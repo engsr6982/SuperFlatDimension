@@ -27,7 +27,7 @@ bool MyPlugin::enable() {
     // Code for enabling the plugin goes here.
 
     more_dimensions::CustomDimensionManager::getInstance()
-        .addDimension<more_dimensions::SimpleCustomDimension>("superflat", 345, GeneratorType::Flat);
+        .addDimension<more_dimensions::SimpleCustomDimension>("overworlddim", 345, GeneratorType::Overworld);
 
     return true;
 }
